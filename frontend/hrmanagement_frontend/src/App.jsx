@@ -6,7 +6,7 @@ import Footer from './components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Home_page from './pages/Home_page'
 import About from './pages/About'
-import contact from './pages/contact'
+import Contact_page from './pages/Contact_page'
 import {Routes,Route}from 'react-router-dom'
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
  <Routes>
   <Route path="/" element={<Home_page></Home_page>}></Route>
 <Route path="/About" element={<About></About>}></Route>
-<Route path="/contact" element={<contact></contact>}></Route>
+<Route path="/Contact_page" element={<Contact_page></Contact_page>}></Route>c
 
   
  </Routes>

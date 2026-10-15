@@ -13,12 +13,12 @@ function Contact_page(){
             <br/>
             <input type="number"value={age}onChange={(event)=>setAge(event.target.value)}placeholder="Enter your age"></input>
             <br/>
-            <input type="email"value={email}onChange={(event)=>setEmailid(event.target.value)}placeholder="Enter your email"></input>
+            <input type="email"value={emailid}onChange={(event)=>setEmailid(event.target.value)}placeholder="Enter your email"></input>
              <br/>
              <input type="text"value={colname}onChange={(event)=>setColname(event.target.value)}placeholder="Enter your college name"></input>
             <button type="submit">Register</button>
         </form>
-        <P>{name}</P>
+        <p>{name}</p>
         <p>{age}</p>
         <p>{emailid}</p>
         <p>{colname}</p>
